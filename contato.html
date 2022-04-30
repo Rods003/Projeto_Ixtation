@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>contato</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styleh.css" media="screen" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+<body>
+	<header>
+		<div class="caixa">
+			
+			<img src="space.jpg" alt="Logo_teste">
+			
+			<nav>
+				<ul>
+					<li><a href="" class="menu-nav">Quem somos</a></li>
+					<li><a href="produtos.html" class="menu-nav">produtos</a></li>
+					<li><a href="" class="menu-nav">contato</a></li>
+				</ul>	
+			</nav>
+		</div>
+	</header>
+	<main>
+    <h1>Contato</h1>
+    <form>
+      <fieldset class="dados">
+        <label for="input-name">Nome Completo:<label>
+            <input type="text" id="input-name" class="input-padrao" required>
+            <label for="input-email">Email:</label>
+            <input type="email" id="input-email" class="input-padrao" required>
+            <label for="input-tel">Telefone:</label>
+            <input type="tel" id="input-tel" class="input-padrao" required>
+            <label for="input-comentario">Comentário:</label>
+            <textarea id="input-comentario" required></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Preferência de Contato</legend>
+        <label><input type="radio" name="opcao" checked>WhatsApp</label>
+        <label><input type="radio" name="opcao">Telefone</label>
+        <label><input type="radio" name="opcao">Email</label>
+      </fieldset>
+      <p>Qual horário prefere ser atendido?</p>
+      <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+      </select>
+      <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email</label>
+    </form>
+  </main>
